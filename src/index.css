@@ -44,6 +44,7 @@ header {
   background-color: #203040;
   color: white;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
 }
@@ -137,4 +138,17 @@ footer {
 
 .button.primary {
   background-color: #f0c040;
+}
+
+/* filter */
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem grey solid;
+}
+
+.filter div {
+  flex: 1;
 }
