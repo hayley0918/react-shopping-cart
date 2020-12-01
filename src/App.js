@@ -87,14 +87,14 @@ class App extends React.Component {
         </header>
         <main>
           <div className="content">
-            <Filter 
-            count={this.state.products.length} 
-            size={this.props.size} 
-            sort={this.props.sort} 
-            filterProducts={this.filterProducts} 
-            sortProducts={this.sortProducts}
-            ></Filter>
             <div className="main">
+              <Filter 
+              count={this.state.products.length} 
+              size={this.props.size} 
+              sort={this.props.sort} 
+              filterProducts={this.filterProducts} 
+              sortProducts={this.sortProducts}
+              ></Filter>
               <Products 
               products={this.state.products}
               addToCart={this.addToCart}
